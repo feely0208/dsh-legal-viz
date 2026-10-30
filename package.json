@@ -1,6 +1,6 @@
 {
   "name": "@deepwhale-cn/dsh-legal-viz",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "深鲸诉讼可视化：把案情与证据 JSON 画成时间轴、法律关系图、证据矩阵、争点对照，输出可打印的单文件 HTML。",
   "type": "module",
   "license": "MIT",
