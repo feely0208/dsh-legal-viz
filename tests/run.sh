@@ -15,7 +15,7 @@ for kw in 时间轴 法律关系 证据矩阵 争点对照 证据缺口 不构�
   grep -q "$kw" /tmp/viz-t.html && ok "输出含「$kw」" || bad "输出缺「$kw」"
 done
 grep -q '张某' /tmp/viz-t.html && ok "含当事人张某" || bad "缺当事人"
-grep -q 'powered by dwh' /tmp/viz-t.html && ok "含 dwh 徽章" || bad "缺徽章"
+! grep -q 'class="badge"' /tmp/viz-t.html && ok "生成页不带重复徽章" || bad "生成页仍带徽章"
 
 # 2) 日期排序
 python3 - <<'PY'
