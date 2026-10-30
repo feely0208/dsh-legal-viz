@@ -1,0 +1,4 @@
+# @deepwhale-cn/dsh-legal-viz 的组合层
+- insert:
+    - id: legal-viz
+      name: '@deepwhale-cn/dsh-legal-viz'
