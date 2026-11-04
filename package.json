@@ -1,7 +1,7 @@
 {
   "name": "@deepwhale-cn/dsh-legal-viz",
-  "version": "0.3.2",
-  "description": "深鲸诉讼可视化：把案情与证据 JSON 画成时间轴、法律关系图、证据矩阵、争点对照，输出可打印的单文件 HTML。",
+  "version": "0.5.2",
+  "description": "深鲸诉讼可视化：选本地材料自动抽时间线，填表补齐事实与证据关联，生成时间轴、法律关系图、证据矩阵、争点对照，输出可打印单文件 HTML。",
   "type": "module",
   "license": "MIT",
   "keywords": [
@@ -49,7 +49,9 @@
     }
   },
   "dependencies": {
-    "@deepwhale-cn/dsh-guard-core": "^0.10.1"
+    "@deepwhale-cn/dsh-guard-core": "^0.10.1",
+    "mammoth": "^1.13.0",
+    "unpdf": "^2.0.1"
   },
   "author": "温州深鲸智能科技有限公司 <contact@deepwhale.org.cn>",
   "repository": {
